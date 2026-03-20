@@ -7,114 +7,73 @@
   <style>
     body {
       margin: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: #667eea;
       font-family: Arial, sans-serif;
       color: white;
       text-align: center;
     }
 
-    /* 🔝 TÍTULO PRO */
     .main-title {
-      margin-bottom: 20px;
-      font-size: 24px;
-      max-width: 650px;
-      letter-spacing: 1px;
-      text-shadow: 0 0 10px rgba(255,255,255,0.4),
-                   0 0 20px rgba(118,75,162,0.6);
+      margin-top: 20px;
+      font-size: 20px;
+      padding: 0 10px;
     }
 
     .container {
-      background: rgba(0,0,0,0.3);
-      padding: 40px;
-      border-radius: 20px;
-      backdrop-filter: blur(10px);
+      background: rgba(0,0,0,0.5);
+      padding: 25px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 400px;
+      margin: 30px auto;
     }
 
-    /* 📦 SUBTÍTULO PRO */
     .section-title {
-      margin-bottom: 25px;
-      font-size: 20px;
-      letter-spacing: 1px;
-      background: linear-gradient(90deg, #ffffff, #ddddff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 8px rgba(255,255,255,0.2);
+      margin-bottom: 20px;
+      font-size: 18px;
     }
 
-    /* 🔘 BOTONES */
     .btn {
       display: block;
-      width: 260px;
-      margin: 12px auto;
-      padding: 15px;
-      font-size: 18px;
+      width: 90%;
+      margin: 10px auto;
+      padding: 12px;
+      font-size: 16px;
       color: white;
-      border-radius: 12px;
+      border-radius: 10px;
       text-decoration: none;
-      transition: 0.3s;
     }
 
-    /* 🟢 BOTÓN PRINCIPAL */
     .btn-main {
       background: #28a745;
-      box-shadow: 0 0 10px rgba(40,167,69,0.5);
     }
 
-    .btn-main:hover {
-      background: #34d058;
-      transform: scale(1.05);
-    }
-
-    /* 🔴 BOTÓN SECUNDARIO */
     .btn-secondary {
       background: #ff4b2b;
     }
 
-    .btn-secondary:hover {
-      background: #ff416c;
-      transform: scale(1.05);
-    }
-
-    /* 🏷️ BADGE */
     .badge {
       display: inline-block;
-      font-size: 12px;
+      font-size: 11px;
       background: rgba(255,255,255,0.2);
-      padding: 3px 8px;
-      border-radius: 8px;
-      margin-left: 8px;
+      padding: 2px 6px;
+      border-radius: 6px;
+      margin-left: 5px;
     }
 
-    /* 🖼️ LOGO */
     .mini-img {
-      margin-top: 18px;
-      width: 140px;
-      opacity: 0.95;
-      filter: drop-shadow(0 0 6px rgba(255,255,255,0.3));
-      transition: 0.3s;
+      margin-top: 15px;
+      width: 120px;
     }
 
-    .mini-img:hover {
-      transform: scale(1.05);
-      filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
-    }
-
-    /* 📝 FOOTER */
     .footer {
-      margin-top: 30px;
-      padding: 10px 20px;
-      font-size: 14px;
-      opacity: 0.9;
-      max-width: 600px;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 12px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
       border-top: 1px solid rgba(255,255,255,0.3);
-      padding-top: 15px;
-      margin-bottom: 20px;
-      line-height: 1.5;
     }
   </style>
 </head>
@@ -128,15 +87,14 @@
   <div class="container">
     <h2 class="section-title">📦 Recursos ⬇️</h2>
 
-    <a class="btn btn-main" href="https://www.mediafire.com/file/p2odnur8xnm3pne/HEN_493_OFICIAL_SIN_USB.pkg/file" target="_blank">
+    <a class="btn btn-main" href="https://www.mediafire.com/file/p2odnur8xnm3pne/HEN_493_OFICIAL_SIN_USB.pkg/file">
       🌟 HFW 4.93 <span class="badge">OFICIAL</span>
     </a>
 
-    <a class="btn btn-secondary" href="https://www.mediafire.com/file/bpd3bemho00ggcf/FIX_HEN_4.93_OFICIAL_Videogamez.pkg/file" target="_blank">
+    <a class="btn btn-secondary" href="https://www.mediafire.com/file/bpd3bemho00ggcf/FIX_HEN_4.93_OFICIAL_Videogamez.pkg/file">
       🔓 FIX TIENDAS
     </a>
 
-    <!-- 🖼️ TU LOGO -->
     <img src="killersopla.png" alt="Killersopla" class="mini-img">
 
   </div>
